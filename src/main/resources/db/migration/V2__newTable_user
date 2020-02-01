@@ -1,0 +1,10 @@
+create table user
+(
+  id       bigint auto_increment
+    primary key,
+  u_name   varchar(64) null,
+  u_pass   varchar(64) null,
+  u_gender varchar(16) null,
+  u_phone  varchar(64) null,
+  g_id     int         null
+);

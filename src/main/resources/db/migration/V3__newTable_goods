@@ -1,0 +1,12 @@
+CREATE TABLE goods
+(
+    g_id bigint PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    g_name varchar(64),
+    g_lowprice double,
+    g_lastprice double,
+    g_type varchar(64),
+    g_img varchar(1024),
+    g_time date,
+    g_state bool,
+    u_id int
+);
