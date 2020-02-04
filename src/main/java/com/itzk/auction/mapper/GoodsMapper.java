@@ -3,9 +3,6 @@ package com.itzk.auction.mapper;
 import java.util.List;
 
 import com.itzk.auction.model.Goods;
-import model.Goods;
-import model.GoodsExample;
-import org.apache.ibatis.annotations.Param;
 
 public interface GoodsMapper {
 

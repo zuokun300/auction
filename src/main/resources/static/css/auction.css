@@ -1,0 +1,25 @@
+.main{
+    margin: 30px;
+    background-color: red;
+}
+.left{
+    margin: 30px;
+    background-color: dodgerblue;
+}
+.right{
+    margin: 30px;
+    background-color: #999999;
+}
+.back{
+    background-color: chartreuse;
+}
+.media-object2{
+    width: 38px;
+    height: 38px
+}
+
+.text-desc{
+    font-size: 12px;
+    font-weight: normal;
+    color: #999;
+}
