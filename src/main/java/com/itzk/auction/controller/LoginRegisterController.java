@@ -31,4 +31,12 @@ public class LoginRegisterController {
         }
         return "redirect:/";
     }
+
+    @PostMapping("doRegister")
+    public String doRegister(@Param(value = "uName")String uName,
+                             @Param(value = "uPass")String uPass,
+                             @Param(value = "uName")String uName,
+                             @Param(value = "uPass")String uPass,){
+
+    }
 }

@@ -1,17 +1,19 @@
 package com.itzk.auction.mapper;
 
-import java.util.List;
+
 
 import com.itzk.auction.model.Goods;
+import org.apache.ibatis.annotations.Mapper;
 
+@Mapper
 public interface GoodsMapper {
 
 
     int deleteByPrimaryKey(Long gId);
 
-    int insert(Goods record);
+    int insert(Goods goods);
 
-    int insertSelective(Goods record);
+    int insertSelective(Goods goods);
 
 
     Goods selectByPrimaryKey(Long gId);
