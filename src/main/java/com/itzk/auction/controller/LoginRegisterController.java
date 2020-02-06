@@ -36,7 +36,7 @@ public class LoginRegisterController {
     public String doRegister(@Param(value = "uName")String uName,
                              @Param(value = "uPass")String uPass,
                              @Param(value = "uName")String uName,
-                             @Param(value = "uPass")String uPass,){
+                             @Param(value = "uPass")String uPass){
 
     }
 }
