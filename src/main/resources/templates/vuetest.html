@@ -1,16 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
-<script type="text/javascript" src="js/vue.js"></script>
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <!--<script type="text/javascript" src="js/vue.js"></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+    <!--<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>-->
 </head>
 <body>
     <div id="app">
-
+        <div>{{msg}}</div>
     </div>
 </body>
 <script type="text/javascript">
-    var msg=
+    var vm=new Vue({
+        el:'#app',
+        data:{
+            msg:'HEllo vue'
+        }
+        }
+
+    );
 </script>
 </html>

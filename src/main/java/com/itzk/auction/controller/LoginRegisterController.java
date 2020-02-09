@@ -8,6 +8,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -33,10 +34,11 @@ public class LoginRegisterController {
     }
 
     @PostMapping("doRegister")
-    public String doRegister(@Param(value = "uName")String uName,
-                             @Param(value = "uPass")String uPass,
-                             @Param(value = "uName")String uName,
-                             @Param(value = "uPass")String uPass){
+    public String doRegister(@RequestParam("uName")String uName,
+                             @RequestParam("uPass")String uPass,
+                             @RequestParam("uGender")String uGender,
+                             @RequestParam("uPhone")String uPhone){
 
+        return "/";
     }
 }
